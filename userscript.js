@@ -118,7 +118,7 @@ setTimeout((function() {
                         let qualityText = '';
                         if (Number(window.vertSpeed) >= -50) {
                             qualityClass = 'landing-quality';
-                            qualityText = 'SUPER BUTTER!';
+                            qualityText = '#swiss001landing';
                             window.statsDiv.innerHTML += `
                                 <div class="${qualityClass}" style="background-color: green; color: white;">
                                     ${qualityText}
@@ -142,7 +142,7 @@ setTimeout((function() {
                             window.hardLanding.play();
                             window.statsDiv.innerHTML += `
                                 <div class="${qualityClass}" style="background-color: red; color: white;">
-                                    HARD LANDING
+                                    THANK YOU FOR FLYING RYANAIR!
                                 </div>`;
                         }
                     }
@@ -150,7 +150,7 @@ setTimeout((function() {
                         window.crashLanding.play();
                         window.statsDiv.innerHTML += `
                             <div class="landing-quality" style="background-color: crimson; color: white;">
-                                u ded
+                                *explosion sound effect*
                             </div>`;
                     }
                 } else if (window.justLanded && window.statsOpen) {
