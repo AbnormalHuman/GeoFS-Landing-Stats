@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         GeoFS Landing Stats
+// @name         GeoFS Landing Stats - Meme Edition
 // @version      0.4.5.3
 // @description  Adds some landing statistics to GeoFS
-// @author       GGamerGGuy (UI improvements by Radioactive Potato and mostypc123)
+// @author       GGamerGGuy (UI improvements by Radioactive Potato and mostypc123), and AbnormalHuman
 // @match        https://geo-fs.com/geofs.php*
 // @match        https://*.geo-fs.com/geofs.php*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=geo-fs.com
